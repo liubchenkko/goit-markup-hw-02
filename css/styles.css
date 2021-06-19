@@ -1,13 +1,19 @@
 :root {
   --accent-color: #2196f3;
+  --first-text-color: #212121;
+  --second-text-color: #757575;
 }
 
-/*======MAIN PAGE======*/
+/*============MAIN PAGE============*/
 /*======HEADER======*/
 
 body {
   font-family: Roboto;
   background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
 }
 
 .header {
@@ -32,16 +38,16 @@ body {
 }
 
 .nav-color {
-  color: #212121;
+  color: var(--first-text-color);
 }
 .nav-color:visited {
-  color: #212121;
+  color: var(--first-text-color);
 }
 .contact-color {
-  color: #757575;
+  color: var(--second-text-color);
 }
 .contact-color:visited {
-  color: #757575;
+  color: var(--second-text-color);
 }
 
 .header-list .header-list-link:hover,
@@ -92,6 +98,7 @@ body {
 .hero-button:active {
   background: #188ce8;
 }
+
 /*======END HERO======*/
 
 /*======FOOTER======*/
@@ -115,9 +122,9 @@ body {
 /*color: rgba(255, 255, 255, 0.6);*/
 
 /*======END FOOTER======*/
+/*============END MAIN PAGE============*/
 
-/*======PORTFOLIO PAGE======*/
-/*======MAIN======*/
+/*============PORTFOLIO PAGE============*/
 
 .header-list .header-list-link.current {
   color: var(--accent-color);
@@ -143,3 +150,4 @@ body {
 }
 
 /*======FOOTER======*/
+/*============END PORTFOLIO PAGE============*/
