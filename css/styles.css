@@ -8,12 +8,16 @@
 /*======HEADER======*/
 
 body {
-  font-family: Roboto;
+  font-family: Roboto, OpenSans, Raleway, sans-serif;
   background-color: #ffffff;
+  color: var(--first-text-color);
 }
 
 .list {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
 
 .header {
@@ -21,7 +25,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .logo-link {
@@ -73,6 +76,7 @@ body {
 .hero {
   align-items: center;
   text-align: center;
+  background-color: #2f303a;
 }
 .hero-title {
   font-weight: 900;
@@ -80,7 +84,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: ;
+  color: #ffffff;
 }
 
 .hero-button {
@@ -91,6 +95,7 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: #ffffff;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -101,11 +106,31 @@ body {
 
 /*======END HERO======*/
 
+/*======MAIN======*/
+.features-items {
+  color: var(--second-text-color);
+}
+/*======END MAIN======*/
+
+/*======OUR TEAM======*/
+.team-section {
+  background-color: #F5F4FA;
+}
+.team-items {
+  color: var(--second-text-color);
+}
+
+/*======END OUR TEAM======*/
+
 /*======FOOTER======*/
 
-/* .logo-link-footer {
-  color: white;
-} */
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-link-footer {
+  color: #ffffff;
+}
 
 .list-footer {
   font-style: normal;
@@ -113,13 +138,14 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: ;
+  color: #ffffff;
 }
 
 .footer-contact {
+  color: rgba(255, 255, 255, 0.6);*
   text-decoration: none;
 }
-/*color: rgba(255, 255, 255, 0.6);*/
+
 
 /*======END FOOTER======*/
 /*============END MAIN PAGE============*/
@@ -140,6 +166,7 @@ body {
 
 .buttons-filtr-items {
   color: #000;
+  cursor: pointer;
 }
 
 .buttons-filtr-items:hover,
@@ -147,6 +174,10 @@ body {
 .buttons-filtr-items:active {
   color: #ffffff;
   background-color: var(--accent-color);
+}
+
+.portfolio-items {
+  color: var(--second-text-color);
 }
 
 /*======FOOTER======*/
