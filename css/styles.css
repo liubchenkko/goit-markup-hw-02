@@ -2,6 +2,12 @@
   --accent-color: #2196f3;
   --first-text-color: #212121;
   --second-text-color: #757575;
+  --third-text-color: #ffffff;
+  --background-color-white: #ffffff;
+  --background-color-gray: #2f303a;
+  --black-color: #000000;
+  --hero-button-hover-color: #188ce8;
+  --background-color-section: #f5f4fa;
 }
 
 /*============MAIN PAGE============*/
@@ -9,7 +15,7 @@
 
 body {
   font-family: Roboto, OpenSans, Raleway, sans-serif;
-  background-color: #ffffff;
+  background-color: var(--background-color-white)
   color: var(--first-text-color);
 }
 
@@ -37,7 +43,7 @@ a {
 }
 
 .logo-link-header {
-  color: #000;
+  color: var(--black-color)
 }
 
 .nav-color {
@@ -76,7 +82,7 @@ a {
 .hero {
   align-items: center;
   text-align: center;
-  background-color: #2f303a;
+  background-color: var(--background-color-gray)
 }
 .hero-title {
   font-weight: 900;
@@ -84,7 +90,7 @@ a {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--third-text-color)
 }
 
 .hero-button {
@@ -94,14 +100,14 @@ a {
 
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--third-text-color)
   cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus,
 .hero-button:active {
-  background: #188ce8;
+  background: var(--hero-button-hover-color)
 }
 
 /*======END HERO======*/
@@ -114,7 +120,7 @@ a {
 
 /*======OUR TEAM======*/
 .team-section {
-  background-color: #F5F4FA;
+  background-color: var(--background-color-section)
 }
 .team-items {
   color: var(--second-text-color);
@@ -125,11 +131,11 @@ a {
 /*======FOOTER======*/
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-color-gray)
 }
 
 .logo-link-footer {
-  color: #ffffff;
+  color: var(--third-text-color)
 }
 
 .list-footer {
@@ -138,14 +144,13 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--third-text-color)
 }
 
 .footer-contact {
-  color: rgba(255, 255, 255, 0.6);*
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-
 
 /*======END FOOTER======*/
 /*============END MAIN PAGE============*/
@@ -165,14 +170,14 @@ a {
 }
 
 .buttons-filtr-items {
-  color: #000;
+  color: var(--black-color)
   cursor: pointer;
 }
 
 .buttons-filtr-items:hover,
 .buttons-filtr-items:focus,
 .buttons-filtr-items:active {
-  color: #ffffff;
+  color: var(--third-text-color)
   background-color: var(--accent-color);
 }
 
